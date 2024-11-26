@@ -37,3 +37,22 @@ Kami akan menggunakan F2 Score karena kami tertarik dengan False Negative dan Fa
 
 - Type I Error/ False Positive (FP): Jika pelanggan diprediksi akan churn, namun ternyata bertahan.
 - Type II Error / False Negative (FN): Jika Pelanggan diprediksi akan bertahan, namun ternyata churn.
+
+
+# DATA UNDERSTANDING
+
+Dataset ini memiliki total 4930 baris dan 11 fitur(kolom)
+
+| Kolom/Fitur | Deskripsi | Unique Value |
+| --- | --- | --- |
+| Dependents | Whether the customer has dependents or not | [Yes, No] |
+| Tenure | Number of months the customer has stayed with the company | (Numeric) |
+| Online_security | Whether the customer has online security or not | [No, Yes, No internet service] |
+| Online_backup | Whether the customer has online backup or not | [No, Yes, No internet service] |
+| Internet_service | Whether the client is subscribed to Internet service | [DSL, Fiber optic, No] |
+| Device_protection | Whether the client has device protection or not | [Yes, No internet service, No] |
+| Tech_support | Whether the client has tech support or not | [Yes, No, No internet service] |
+| Contract | Type of contract according to duration | [Month-to-month, Two year, One year] |
+| Paperless_billing | Bills issued in paperless form | [Yes, No] |
+| Monthly_charges | Amount of charge for service on monthly bases | (Numerik) |
+| Churn | Whether the customer churns or not | [Yes, No] |
